@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <div class="container-fluid">
+        <ul class="navbar-nav d-flex flex-row w-100 justify-content-between">
+            <!-- Left: Profile -->
+            <li class="nav-item">
+                <a class="nav-link" href="./profile.php">
+                    <i class="fas fa-user"></i> Profile
+                </a>
+            </li>
+
+            <!-- Middle: Home -->
+            <li class="nav-item">
+                <a class="nav-link" href="./news-feed.php">
+                    <i class="fas fa-home"></i> Home
+                </a>
+            </li>
+
+            <!-- Right: Bars Icon Dropdown -->
+            <li class="nav-item dropdown">
+                <a data-mdb-dropdown-init class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li>
+                        <!-- Link to the logout script -->
+                        <a class="dropdown-item" href="./index.html">Log out <i class="fas fa-arrow-right-from-bracket"></i></a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="Search.php">Search <i class="fas fa-magnifying-glass"></i></i></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
